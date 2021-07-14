@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.p7basic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:5:1-61
+13-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:5:18-58
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:6:1-76
+14-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:6:18-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:7:1-77
+15-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:7:18-74
+16    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+16-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:8:1-84
+16-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:8:18-81
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.33.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/9bb9c1eeaa36afd958aa040396097de3/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.33.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/9bb9c1eeaa36afd958aa040396097de3/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+20-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-74
+20-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-71
+21    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+21-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-72
+21-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-69
+22    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+22-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-91
+22-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-88
+23    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" /> <!-- Required to access Google Play Licensing -->
+23-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-117
+23-->[:react-native-fingerprint-scanner] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-fingerprint-scanner/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-114
+24    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+24-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+24-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+25
+26    <application
+26-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:10:5-30:19
+27        android:name="com.p7basic.MainApplication"
+27-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:11:7-38
+28        android:allowBackup="false"
+28-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:15:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/797f560c546540e280583a95bcbb315f/core-1.3.1/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/companylogo"
+31-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:13:7-43
+32        android:label="@string/app_name"
+32-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:12:7-39
+33        android:roundIcon="@drawable/companylogo"
+33-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:14:7-48
+34        android:theme="@style/AppTheme"
+34-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:16:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/debug/AndroidManifest.xml:7:18-53
+36        <activity
+36-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:17:7-28:18
+37            android:name="com.p7basic.MainActivity"
+37-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:18:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:20:9-86
+39            android:label="@string/app_name"
+39-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:19:9-41
+40            android:launchMode="singleTask"
+40-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:21:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:22:9-51
+42            <intent-filter>
+42-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:23:9-27:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:24:13-65
+43-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:24:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:25:13-73
+45-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:25:23-70
+46
+47                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+47-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:26:14-78
+47-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:26:22-76
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+50-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:29:7-84
+50-->/Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/android/app/src/main/AndroidManifest.xml:29:17-81
+51
+52        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+52-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+52-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+53            <meta-data
+53-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+54                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+54-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[:react-native-firebase] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+56        </service>
+57
+58        <provider
+58-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+59            android:name="com.imagepicker.FileProvider"
+59-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+60            android:authorities="com.p7basic.provider"
+60-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+61            android:exported="false"
+61-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+62            android:grantUriPermissions="true" >
+62-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+63            <meta-data
+63-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+65                android:resource="@xml/provider_paths" />
+65-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+66        </provider>
+67        <provider
+67-->[:react-native-webview] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+68            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+68-->[:react-native-webview] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+69            android:authorities="com.p7basic.fileprovider"
+69-->[:react-native-webview] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+70            android:exported="false"
+70-->[:react-native-webview] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+71            android:grantUriPermissions="true" >
+71-->[:react-native-webview] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+72            <meta-data
+72-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+74                android:resource="@xml/file_provider_paths" />
+74-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+75        </provider>
+76        <provider
+76-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+77            android:name="com.RNFetchBlob.Utils.FileProvider"
+77-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+78            android:authorities="com.p7basic.provider"
+78-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+79            android:exported="false"
+79-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+80            android:grantUriPermissions="true" >
+80-->[:rn-fetch-blob] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+81            <meta-data
+81-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+83                android:resource="@xml/provider_paths" />
+83-->[:react-native-image-picker] /Users/pinnacleseven/Documents/Anandhababu/React/p7-suite-mobile-dev/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+84        </provider>
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/297cce535a5cc1adadec87a837ce122a/jetified-play-services-base-10.0.1/AndroidManifest.xml:19:9-172
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/297cce535a5cc1adadec87a837ce122a/jetified-play-services-base-10.0.1/AndroidManifest.xml:19:19-85
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/297cce535a5cc1adadec87a837ce122a/jetified-play-services-base-10.0.1/AndroidManifest.xml:19:146-170
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/297cce535a5cc1adadec87a837ce122a/jetified-play-services-base-10.0.1/AndroidManifest.xml:19:86-145
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/32a167d301c02e67352e1bfc0e4524dd/jetified-play-services-basement-10.0.1/AndroidManifest.xml:20:9-121
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/32a167d301c02e67352e1bfc0e4524dd/jetified-play-services-basement-10.0.1/AndroidManifest.xml:20:20-65
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:10.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/32a167d301c02e67352e1bfc0e4524dd/jetified-play-services-basement-10.0.1/AndroidManifest.xml:20:66-119
+94
+95        <activity
+95-->[androidx.biometric:biometric:1.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/849695be413dc4348718760bc34eaf60/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+96            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+96-->[androidx.biometric:biometric:1.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/849695be413dc4348718760bc34eaf60/biometric-1.0.1/AndroidManifest.xml:29:13-78
+97            android:exported="true"
+97-->[androidx.biometric:biometric:1.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/849695be413dc4348718760bc34eaf60/biometric-1.0.1/AndroidManifest.xml:30:13-36
+98            android:theme="@style/DeviceCredentialHandlerTheme" />
+98-->[androidx.biometric:biometric:1.0.1] /Users/pinnacleseven/.gradle/caches/transforms-2/files-2.1/849695be413dc4348718760bc34eaf60/biometric-1.0.1/AndroidManifest.xml:31:13-64
+99    </application>
+100
+101</manifest>
